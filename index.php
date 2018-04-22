@@ -113,11 +113,13 @@
             <form action="area-triangulo.php" id="areatriangulo" method="get">
               <div class="form-group">
                 <label for="entrada">base</label>
-                <input type="text" class="form-control" name="basetriangulo" id="basetriangulo" aria-describedby="helpId" placeholder="definir base" require>
+                <input type="text" class="form-control" name="basetriangulo" id="basetriangulo" aria-describedby="helpId" placeholder="definir base"
+                  require>
               </div>
               <div class="form-group">
                 <label for="entrada">altura</label>
-                <input type="text" class="form-control" name="alturatriangulo" id="alturatriangulo" aria-describedby="helpId" placeholder="definir altura" require>
+                <input type="text" class="form-control" name="alturatriangulo" id="alturatriangulo" aria-describedby="helpId" placeholder="definir altura"
+                  require>
               </div>
               <button type="submit" class="btn btn-primary" form="areatriangulo">Calcular</button>
             </form>
@@ -138,11 +140,13 @@
             <form action="area-rectangulo.php" id="arearectangulo" method="get">
               <div class="form-group">
                 <label for="entrada">base</label>
-                <input type="text" class="form-control" name="baserectangulo" id="baserectangulo" aria-describedby="helpId" placeholder="definir base" require>
+                <input type="text" class="form-control" name="baserectangulo" id="baserectangulo" aria-describedby="helpId" placeholder="definir base"
+                  require>
               </div>
               <div class="form-group">
                 <label for="entrada">altura</label>
-                <input type="text" class="form-control" name="alturarectangulo" id="alturarectangulo" aria-describedby="helpId" placeholder="definir altura" require>
+                <input type="text" class="form-control" name="alturarectangulo" id="alturarectangulo" aria-describedby="helpId" placeholder="definir altura"
+                  require>
               </div>
               <button type="submit" class="btn btn-primary" form="arearectangulo">Calcular</button>
             </form>
@@ -155,7 +159,7 @@
           <div class="card-body">
             <h4 class="card-title">Ejercicio 4:</h4>
             <p class="card-text">Area del trapecio </p>
-           
+
             <form action="area-trapecio.php" id="areatrapecio" method="get">
               <div class="form-group">
                 <label for="entrada">lado a</label>
@@ -167,7 +171,8 @@
               </div>
               <div class="form-group">
                 <label for="entrada">altura</label>
-                <input type="text" class="form-control" name="altura" id="alturarectangulo" aria-describedby="helpId" placeholder="definir altura" require>
+                <input type="text" class="form-control" name="altura" id="alturarectangulo" aria-describedby="helpId" placeholder="definir altura"
+                  require>
               </div>
               <button type="submit" class="btn btn-primary" form="areatrapecio">Calcular</button>
             </form>
@@ -176,7 +181,7 @@
         </div>
 
       </div>
-      
+
       <hr>
       <div class="row d-flex justify-content-around">
 
@@ -189,13 +194,15 @@
             <form action="intercambio.php" id="intercambio" method="get">
               <div class="form-group">
                 <label for="var1">dato 1</label>
-                <input type="text" class="form-control" name="var1" id="var1" aria-describedby="helpId" placeholder="ingresar el valor 1" require>
+                <input type="text" class="form-control" name="var1" id="var1" aria-describedby="helpId" placeholder="ingresar el valor 1"
+                  require>
               </div>
               <div class="form-group">
                 <label for="var2">dato 2</label>
-                <input type="text" class="form-control" name="var2" id="var2" aria-describedby="helpId" placeholder="ingresar el valor 2" require>
+                <input type="text" class="form-control" name="var2" id="var2" aria-describedby="helpId" placeholder="ingresar el valor 2"
+                  require>
               </div>
-              
+
               <button type="submit" class="btn btn-primary" form="intercambio">Intercambiar</button>
             </form>
 
