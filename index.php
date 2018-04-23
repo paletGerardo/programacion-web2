@@ -86,6 +86,7 @@
   <section>
 
     <div class="container">
+    <h1>GRUPO 1</h1>
       <div class="row d-flex justify-content-around">
 
         <div class="card col-md-5" id="ejercicio1">
@@ -185,7 +186,7 @@
       <hr>
       <div class="row d-flex justify-content-around">
 
-        <div class="card col-5" id="ejercicio3">
+        <div class="card col-5 offset-6" id="ejercicio3">
           <img class="card-img-top" src="" alt="">
           <div class="card-body">
             <h4 class="card-title">Ejercicio 5:</h4>
@@ -208,6 +209,62 @@
 
           </div>
         </div>
+
+      </div>
+    </div>
+
+  </section>
+  
+  <section>
+
+    <div class="container">
+    <h1>GRUPO 2</h1>
+      <div class="row d-flex justify-content-around">
+
+        <div class="card col-md-5" id="ejercicio1-gp2">
+          <div class="card-body">
+            <h4 class="card-title">Ejercicio 1</h4>
+            <p class="card-text">incremental</p>
+            <form action="incremental.php" method="get" id="incremental">
+              <div class="form-group">
+                <label for="datoincremental">Devuelve el primer resultado mayor a su potencia.</label>
+                <input type="number" class="form-control" name="datoincremental" id="datoincremental" aria-describedby="helpId" placeholder="variable" require>
+              </div>
+              <button type="submit" class="btn btn-primary" form="incremental">Calcular</button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="card col-md-5" id="ejercicio2-gp2">
+          <div class="card-body">
+            <h4 class="card-title">descendente del 100 al 0 sumado 2</h4>
+            <p class="card-text">descendente</p>
+            <?php for ($i=100; $i >= 0 ; $i--) { 
+                echo $i --."-";
+            } ?>
+          </div>
+        </div>
+
+       
+
+      </div>
+      <hr>
+      <div class="row d-flex justify-content-around">
+        
+        <div class="card col-5 offset-6" id="ejercicio3-gp2">
+          <div class="card-body">
+            <h4 class="card-title">Multiplicacion</h4>
+            <p class="card-text">descendente</p>
+            <?php 
+            for ($i=1; $i <= 20 ; $i++) { 
+                for ($j=25; $j <= 30; $j++) { 
+                  echo $i*$j."-";
+                }
+            } ?>
+          </div>
+        </div>
+
+       
 
       </div>
     </div>
