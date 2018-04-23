@@ -22,63 +22,53 @@
 
     <ul>
       <li>
-        <a href="#ejercicio1">Ejercicio Nro. 1: Escribir un programa php que dada una variable dada, imprima en el navegador del cliente, su tipo
-          de dato y su contenido. Formatee mediante el uso de HTML</a>
+        <a href="#ejercicio1-gp1">Ejercicio Nro. 1</a>
       </li>
       <li>
-        <a href="#ejercicio2">Ejercicio Nro. 2: Escribir un programa php que calcule el área de un triángulo.</a>
+        <a href="#ejercicio2-gp1">Ejercicio Nro. 2 </a>
       </li>
       <li>
-        <a href="ejercicio3">Ejercicio Nro. 3: Escribir un programa php que calcule el área de un rectángulo</a>
+        <a href="#ejercicio3-gp1">Ejercicio Nro. 3</a>
       </li>
       <li>
-        <a href="ejercicio4">Ejercicio Nro. 4: Escribir un programa php que calcule el área de un trapecio.</a>
+        <a href="#ejercicio4-gp1">Ejercicio Nro. 4</a>
       </li>
       <li>
-        <a href="ejercicio5">Ejercicio Nro. 5: Escribir un programa php que intercambie el contenido de dos variables.
-        </a>
+        <a href="#ejercicio5-gp1">Ejercicio Nro. 5</a>
       </li>
     </ul>
     <h2>grupo 2</h2>
 
     <ul>
       <li>
-        <a href="ejercicio1">Ejercicio Nro. 1: Escribir un programa php que dada una variable dada, imprima en el navegador del cliente, su tipo
-          de dato y su contenido. Formatee mediante el uso de HTML</a>
+        <a href="#ejercicio1-gp2">Ejercicio Nro. 1</a>
       </li>
       <li>
-        <a href="ejercicio2">Ejercicio Nro. 2: Escribir un programa php que calcule el área de un triángulo.</a>
+        <a href="#ejercicio2-gp2">Ejercicio Nro. 2</a>
       </li>
       <li>
-        <a href="ejercicio3">Ejercicio Nro. 3: Escribir un programa php que calcule el área de un rectángulo</a>
+        <a href="#ejercicio2-gp2">Ejercicio Nro. 3</a>
       </li>
-      <li>
-        <a href="ejercicio4">Ejercicio Nro. 4: Escribir un programa php que calcule el área de un trapecio.</a>
-      </li>
-      <li>
-        <a href="ejercicio5">Ejercicio Nro. 5: Escribir un programa php que intercambie el contenido de dos variables.
-        </a>
-      </li>
+      
     </ul>
 
     <h2>grupo 3</h2>
 
     <ul>
       <li>
-        <a href="ejercicio1">Ejercicio Nro. 1: </a>
+        <a href="#ejercicio1-gp3">Ejercicio Nro. 1</a>
       </li>
       <li>
-        <a href="ejercicio2">Ejercicio Nro. 2: Escribir un programa php que calcule el área de un triángulo.</a>
+        <a href="#ejercicio12-gp3">Ejercicio Nro. 2</a>
       </li>
       <li>
-        <a href="ejercicio3">Ejercicio Nro. 3: Escribir un programa php que calcule el área de un rectángulo</a>
+        <a href="#ejercicio3-gp3">Ejercicio Nro. 3</a>
       </li>
       <li>
-        <a href="ejercicio4">Ejercicio Nro. 4: Escribir un programa php que calcule el área de un trapecio.</a>
+        <a href="#ejercicio4-gp3">Ejercicio Nro. 4</a>
       </li>
       <li>
-        <a href="ejercicio5">Ejercicio Nro. 5: Escribir un programa php que intercambie el contenido de dos variables.
-        </a>
+        <a href="#ejercicio5-gp3">Ejercicio Nro. 5</a>
       </li>
     </ul>
   </div>
@@ -89,7 +79,7 @@
     <h1>GRUPO 1</h1>
       <div class="row d-flex justify-content-around">
 
-        <div class="card col-md-5" id="ejercicio1">
+        <div class="card col-md-5" id="ejercicio1-gp1">
           <img class="card-img-top" src="" alt="">
           <div class="card-body">
             <h4 class="card-title">Ejercicio 1</h4>
@@ -105,7 +95,7 @@
           </div>
         </div>
 
-        <div class="card col-5" id="ejercicio2">
+        <div class="card col-5" id="ejercicio2-gp1">
           <img class="card-img-top" src="" alt="">
           <div class="card-body">
             <h4 class="card-title">Ejercicio 2: Area del triangulo</h4>
@@ -132,7 +122,7 @@
       <hr>
       <div class="row d-flex justify-content-around">
 
-        <div class="card col-5" id="ejercicio3">
+        <div class="card col-5" id="ejercicio3-gp1">
           <img class="card-img-top" src="" alt="">
           <div class="card-body">
             <h4 class="card-title">Ejercicio 3:</h4>
@@ -155,7 +145,7 @@
           </div>
         </div>
 
-        <div class="card col-5" id="ejercicio2">
+        <div class="card col-5" id="ejercicio4-gp1">
           <img class="card-img-top" src="" alt="">
           <div class="card-body">
             <h4 class="card-title">Ejercicio 4:</h4>
@@ -186,7 +176,7 @@
       <hr>
       <div class="row d-flex justify-content-around">
 
-        <div class="card col-5 offset-6" id="ejercicio3">
+        <div class="card col-5 offset-6" id="ejercicio5-gp1">
           <img class="card-img-top" src="" alt="">
           <div class="card-body">
             <h4 class="card-title">Ejercicio 5:</h4>
@@ -237,8 +227,8 @@
         
         <div class="card col-md-5" id="ejercicio2-gp2">
           <div class="card-body">
-            <h4 class="card-title">descendente del 100 al 0 sumado 2</h4>
-            <p class="card-text">descendente</p>
+            <h4 class="card-title">Ejercicio 2</h4>
+            <p class="card-text">descendente del 100 al 0 sumado 2</p>
             <?php for ($i=100; $i >= 0 ; $i--) { 
                 echo $i --."-";
             } ?>
@@ -253,8 +243,80 @@
         
         <div class="card col-5 offset-6" id="ejercicio3-gp2">
           <div class="card-body">
-            <h4 class="card-title">Multiplicacion</h4>
-            <p class="card-text">descendente</p>
+            <h4 class="card-title">Ejercicio 3</h4>
+            <p class="card-text">multiplicacion descendente</p>
+            <?php 
+            for ($i=1; $i <= 20 ; $i++) { 
+                for ($j=25; $j <= 30; $j++) { 
+                  echo $i*$j."-";
+                }
+            } ?>
+          </div>
+        </div>
+
+       
+
+      </div>
+    </div>
+
+  </section>
+  
+  <section>
+
+    <div class="container">
+    <h1>GRUPO 3</h1>
+      <div class="row d-flex justify-content-around">
+
+        <div class="card col-md-5" id="ejercicio1-gp3">
+          <div class="card-body">
+            <h4 class="card-title">Ejercicio 1</h4>
+            <p class="card-text">Ecuacion x2+2*x+b</p>
+            <form action="ecuacion.php" method="get" id="ecuacion">
+              <div class="form-group">
+                <label for="valorx">Valor de X.</label>
+                <input type="number" class="form-control" name="valorx" id="valorx" aria-describedby="helpId" placeholder="variable" require>
+              </div>
+              <div class="form-group">
+                <label for="valorb">Valor de b.</label>
+                <input type="number" class="form-control" name="valorb" id="valorb" aria-describedby="helpId" placeholder="variable" require>
+              </div>
+              <button type="submit" class="btn btn-primary" form="ecuacion">Calcular</button>
+            </form>
+          </div>
+        </div>
+        
+        <div class="card col-md-5" id="ejercicio2-gp3">
+          <div class="card-body">
+            <h4 class="card-title">Ejercicio 2:</h4>
+            <form action="autores.php" method="get" id="autores">
+              <div class="form-group">
+                <label for="autor">Elija un autor</label>
+                <select class="custom-select" name="autor" id="autor">
+                  <option >seleccione un autor</option>
+                  <option value="1" selected>Friedrich Nietzsche</option>
+                  <option value="2">René Descartes</option>
+                  <option value="3">José Ingeniero</option>
+                  <option value="4">Immanuel Kant</option>
+                  <option value="5">Baruch Spinoza</option>
+                  <option value="6">Thomas Hobbes</option>
+                  <option value="7">Nicolás Maquiavelo</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary" form="autores">Enviar</button>
+            </form>
+          </div>
+        </div>
+
+       
+
+      </div>
+      <hr>
+      <div class="row d-flex justify-content-around">
+        
+        <div class="card col-5 offset-6" id="ejercicio3-gp3">
+          <div class="card-body">
+            <h4 class="card-title">Ejercicio 3</h4>
+            <p class="card-text">Multiplicacion descendente</p>
             <?php 
             for ($i=1; $i <= 20 ; $i++) { 
                 for ($j=25; $j <= 30; $j++) { 
