@@ -84,14 +84,16 @@
           <div class="card-body">
             <h4 class="card-title">Ejercicio 1</h4>
             <p class="card-text">determina variable</p>
-            <form action="#" method="post">
+
+            <form action="tipodato.php" method="get" id="tipodato">
               <div class="form-group">
                 <label for="entrada">Escribir un programa php que dada una variable dada, imprima en el navegador del cliente, su tipo de dato
                   y su contenido. Formatee mediante el uso de HTML</label>
                 <input type="text" class="form-control" name="entrada" id="entrada" aria-describedby="helpId" placeholder="variable">
               </div>
-              <button type="submit" class="btn btn-primary">Calcular</button>
+              <button type="submit" class="btn btn-primary" form="tipodato">Calcular</button>
             </form>
+
           </div>
         </div>
 
@@ -104,12 +106,12 @@
             <form action="area-triangulo.php" id="areatriangulo" method="get">
               <div class="form-group">
                 <label for="entrada">base</label>
-                <input type="text" class="form-control" name="basetriangulo" id="basetriangulo" aria-describedby="helpId" placeholder="definir base"
+                <input type="number" class="form-control" name="basetriangulo" id="basetriangulo" aria-describedby="helpId" placeholder="definir base"
                   require>
               </div>
               <div class="form-group">
                 <label for="entrada">altura</label>
-                <input type="text" class="form-control" name="alturatriangulo" id="alturatriangulo" aria-describedby="helpId" placeholder="definir altura"
+                <input type="number" class="form-control" name="alturatriangulo" id="alturatriangulo" aria-describedby="helpId" placeholder="definir altura"
                   require>
               </div>
               <button type="submit" class="btn btn-primary" form="areatriangulo">Calcular</button>
