@@ -1,5 +1,5 @@
 <?php
-    session_start();
+    $nombre =$_COOKIE['nombre'];
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -10,6 +10,6 @@
     <title>hola</title>
 </head>
 <body>
-    <h1>bienvenido...</h1>
+    <h1>bienvenido... <?php echo $nombre ?>;</h1>
 </body>
 </html>

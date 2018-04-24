@@ -267,6 +267,7 @@
 
     <div class="container">
     <h1>GRUPO 3</h1>
+
       <div class="row d-flex justify-content-around">
 
         <div class="card col-md-5" id="ejercicio1-gp3">
@@ -288,6 +289,59 @@
         </div>
         
         <div class="card col-md-5" id="ejercicio2-gp3">
+          <div class="card-body">
+            <h4 class="card-title">Ejercicio 2:</h4>
+            <form action="autores.php" method="get" id="autores">
+              <div class="form-group">
+                <label for="autor">Elija un autor</label>
+                <select class="custom-select" name="autor" id="autor">
+                  <option >seleccione un autor</option>
+                  <option value="1" selected>Friedrich Nietzsche</option>
+                  <option value="2">René Descartes</option>
+                  <option value="3">José Ingeniero</option>
+                  <option value="4">Immanuel Kant</option>
+                  <option value="5">Baruch Spinoza</option>
+                  <option value="6">Thomas Hobbes</option>
+                  <option value="7">Nicolás Maquiavelo</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary" form="autores">Enviar</button>
+            </form>
+          </div>
+        </div>
+          <hr>
+          <div class="row d-flex justify-content-around">
+
+        <div class="card col-md-5" id="ejercicio3-gp3">
+          <div class="card-body">
+            <h4 class="card-title">Ejercicio 1</h4>
+            <p class="card-text">Ecuacion x2+2*x+b</p>
+
+            <form action="mayor.php" method="get" id="mayor">
+
+              <div class="form-group">
+                <label for="valorx">Valor uno</label>
+                <input type="number" class="form-control" name="mayor1" id="mayor1" aria-describedby="helpId" placeholder="ingrese primer valor" require>
+              </div>
+
+                <div class="form-group">
+                <label for="valorx">Valor dos</label>
+                <input type="number" class="form-control" name="mayor2" id="mayor2" aria-describedby="helpId" placeholder="ingrese primer valor" require>
+              </div>
+
+                <div class="form-group">
+                <label for="valorx">Valor tres</label>
+                <input type="number" class="form-control" name="mayor3" id="mayor3" aria-describedby="helpId" placeholder="ingrese primer valor" require>
+              </div>
+
+              <button type="submit" class="btn btn-primary" form="mayor">Calcular</button>
+
+            </form>
+
+          </div>
+        </div>
+
+        <div class="card col-md-5" id="ejercicio4-gp3">
           <div class="card-body">
             <h4 class="card-title">Ejercicio 2:</h4>
             <form action="autores.php" method="get" id="autores">
