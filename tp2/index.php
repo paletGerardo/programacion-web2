@@ -314,8 +314,8 @@
 
         <div class="card col-md-5" id="ejercicio3-gp3">
           <div class="card-body">
-            <h4 class="card-title">Ejercicio 1</h4>
-            <p class="card-text">Ecuacion x2+2*x+b</p>
+            <h4 class="card-title">Ejercicio 3</h4>
+            <p class="card-text">El mayor de tres</p>
 
             <form action="mayor.php" method="get" id="mayor">
 
@@ -341,28 +341,34 @@
           </div>
         </div>
 
-        <div class="card col-md-5" id="ejercicio4-gp3">
+              <div class="card col-md-5" id="ejercicio4-gp3">
           <div class="card-body">
-            <h4 class="card-title">Ejercicio 2:</h4>
-            <form action="autores.php" method="get" id="autores">
+            <h4 class="card-title">Ejercicio 3</h4>
+            <p class="card-text">El menor de tres</p>
+
+            <form action="menor.php" method="get" id="menor">
+
               <div class="form-group">
-                <label for="autor">Elija un autor</label>
-                <select class="custom-select" name="autor" id="autor">
-                  <option >seleccione un autor</option>
-                  <option value="1" selected>Friedrich Nietzsche</option>
-                  <option value="2">René Descartes</option>
-                  <option value="3">José Ingeniero</option>
-                  <option value="4">Immanuel Kant</option>
-                  <option value="5">Baruch Spinoza</option>
-                  <option value="6">Thomas Hobbes</option>
-                  <option value="7">Nicolás Maquiavelo</option>
-                </select>
+                <label for="valorx">Valor uno</label>
+                <input type="number" class="form-control" name="menor1" id="mayor1" aria-describedby="helpId" placeholder="ingrese primer valor" require>
               </div>
-              <button type="submit" class="btn btn-primary" form="autores">Enviar</button>
+
+                <div class="form-group">
+                <label for="valorx">Valor dos</label>
+                <input type="number" class="form-control" name="menor2" id="mayor2" aria-describedby="helpId" placeholder="ingrese primer valor" require>
+              </div>
+
+                <div class="form-group">
+                <label for="valorx">Valor tres</label>
+                <input type="number" class="form-control" name="menor3" id="mayor3" aria-describedby="helpId" placeholder="ingrese primer valor" require>
+              </div>
+
+              <button type="submit" class="btn btn-primary" form="menor">Calcular</button>
+
             </form>
+
           </div>
         </div>
-
        
 
       </div>
