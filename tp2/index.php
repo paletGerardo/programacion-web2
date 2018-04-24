@@ -341,7 +341,7 @@
           </div>
         </div>
 
-              <div class="card col-md-5" id="ejercicio4-gp3">
+        <div class="card col-md-5" id="ejercicio4-gp3">
           <div class="card-body">
             <h4 class="card-title">Ejercicio 3</h4>
             <p class="card-text">El menor de tres</p>
@@ -369,26 +369,38 @@
 
           </div>
         </div>
+
+        <div class="card col-md-5" id="ejercicio5-gp3">
+          <div class="card-body">
+            <h4 class="card-title">Ejercicio 3</h4>
+            <p class="card-text">El del medio de tres</p>
+
+            <form action="medio.php" method="get" id="medio">
+
+              <div class="form-group">
+                <label for="valorx">Valor uno</label>
+                <input type="number" class="form-control" name="medio1" id="medio1" aria-describedby="helpId" placeholder="ingrese primer valor" require>
+              </div>
+
+                <div class="form-group">
+                <label for="valorx">Valor dos</label>
+                <input type="number" class="form-control" name="medio2" id="medio2" aria-describedby="helpId" placeholder="ingrese primer valor" require>
+              </div>
+
+                <div class="form-group">
+                <label for="valorx">Valor tres</label>
+                <input type="number" class="form-control" name="medio3" id="medio3" aria-describedby="helpId" placeholder="ingrese primer valor" require>
+              </div>
+
+              <button type="submit" class="btn btn-primary" form="medio3">Calcular</button>
+
+            </form>
+
+          </div>
+        </div>
        
 
       </div>
-      <hr>
-      <div class="row d-flex justify-content-around">
-        
-        <div class="card col-5 offset-6" id="ejercicio3-gp3">
-          <div class="card-body">
-            <h4 class="card-title">Ejercicio 3</h4>
-            <p class="card-text">Multiplicacion descendente</p>
-            <?php 
-            for ($i=1; $i <= 20 ; $i++) { 
-                for ($j=25; $j <= 30; $j++) { 
-                  echo $i*$j."-";
-                }
-            } ?>
-          </div>
-        </div>
-
-       
 
       </div>
     </div>
